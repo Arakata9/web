@@ -64,12 +64,17 @@ body{
 .UI{
   position: absolute;
   float: left;
-  margin-left: 200px;
+  margin-left: 130px;
   top:100px;
 }
 
 .UI a{
-  margin-right: 100px;
+  margin-right: 70px;
+}
+
+img.about{
+  width: 323px;
+  height: 825px;
 }
 
 img.works{
