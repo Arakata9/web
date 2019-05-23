@@ -11,17 +11,28 @@ function mouseOff(){
   obj.src = "images/pemf.png";
 }
 
+//マウスオーバー時の処理about
+function mouseOn1(){
+  var obj = document.getElementById("img1");
+  obj.src = "images/aboutbw.png";
+}
 
-//マウスオーバー時の処理work
+//マウスアウト時の処理
+function mouseOff1(){
+  var obj = document.getElementById("img1");
+  obj.src = "images/about.png";
+}
+
+//マウスオーバー時の処理works
 function mouseOn2(){
   var obj = document.getElementById("img2");
-  obj.src = "images/webUIbw.png";
+  obj.src = "images/worksbw.png";
 }
 
 //マウスアウト時の処理
 function mouseOff2(){
   var obj = document.getElementById("img2");
-  obj.src = "images/work.png";
+  obj.src = "images/works.png";
 }
 
 //マウスオーバー時の処理contact
