@@ -11,6 +11,7 @@ function mouseOff(){
   obj.src = "images/pemf.png";
 }
 
+/*
 //マウスオーバー時の処理about
 function mouseOn1(){
   var obj = document.getElementById("img1");
@@ -22,6 +23,8 @@ function mouseOff1(){
   var obj = document.getElementById("img1");
   obj.src = "images/about.png";
 }
+
+
 
 //マウスオーバー時の処理works
 function mouseOn2(){
@@ -46,3 +49,4 @@ function mouseOff3(){
   var obj = document.getElementById("img3");
   obj.src = "images/contact.png";
 }
+*/
