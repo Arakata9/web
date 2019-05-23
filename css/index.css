@@ -8,6 +8,16 @@ body{
   background-color:#F1F1F1;
 }
 
+h1{
+  position: absolute;
+  float: left;
+  top:60px;
+  margin-left: 320px;
+  font-size: 160px;
+  color: #36364d;
+  font-family: 'Rokkitt', serif;
+}
+
 .header{
   height:56px;
   width: 100%;
@@ -61,6 +71,7 @@ body{
 
 
 
+
 .UI{
   position: absolute;
   float: left;
@@ -69,7 +80,7 @@ body{
 }
 
 .UI a{
-  margin-right: 70px;
+  margin-right: 60px;
 }
 
 img.about{
@@ -96,4 +107,19 @@ img.contact{
   text-decoration: none;
   font-size: 120px;
   font-family: 'Economica', sans-serif;
+}
+
+/*works*/
+
+.worksba{
+  position: absolute;
+  float: left;
+
+  top:300px;
+}
+
+.pem{
+
+
+
 }
