@@ -19,30 +19,32 @@ h1{
 }
 
 .header{
-  height:56px;
-  width: 100%;
   position:fixed;
-  top: 10px;
+  height:100px;
+  width: 100%;
+  background-color:#1111;
 
 }
 
 .bar-left{
   float: right;
   position: absolute;
-  margin-left: 50px;
-              top:16px;
-               width: 150px;
-               height: 150px;
+  margin-left: 30px;
+          top:0px;
 }
 
 .logo{
+  width: 100px;
+  height: 100px;
   z-index:10;
 }
 
 .bar-right{
   float: right;
   margin-right: 80px;
+  margin-top: 20px;
   font-family: 'Economica', sans-serif;
+  z-index:10;
 }
 
 .bar-right a{
@@ -79,8 +81,9 @@ h1{
 .UI{
   position: absolute;
   float: left;
-  margin-left: 150px;
-  top:100px;
+  margin-left: 140px;
+  top:110px;
+  z-index: -10;
 }
 
 .UI img{
@@ -98,10 +101,29 @@ h1{
 .UIsc{
   position: absolute;
   top:720px;
-  margin-left: 0px;
-  width: 1100px;
+  margin-left: -20px;
+  width: 1085px;
   height: 100px;
-  background: #222;
+  background: #a3b8cc;
+  z-index:-1;
+}
+.UIsc2{
+  position: absolute;
+  top:330px;
+  margin-left: -20px;
+  width: 1085px;
+  height:360px;
+  background: #eee;
+  z-index:-1;
+}
+
+.UIsc3{
+  position: absolute;
+  top:150px;
+  margin-left: -20px;
+  width: 1085px;
+  height:140px;
+  background: #cfdfe6;
   z-index:-1;
 }
 
@@ -119,7 +141,6 @@ h1{
 
 .sc{
   position:absolute;
-
   top:180px;
   margin-right: 30px;
   width: 500px;
@@ -130,13 +151,59 @@ h1{
 
 .sc2{
   position:absolute;
-
   top:330px;
   margin-right: 30px;
   width: 500px;
-  height:700px;
+  height:1000px;
   background: #eee;
   z-index:-1;
+}
+
+.frame{
+  position: relative;
+  float: left;
+  margin-top:15px;
+  margin-left:15px;
+}
+.frame a{
+  position: absolute;
+  color: #fff;
+  font-weight: bold; /*太字に*/
+  font-size: 3em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;
+  top: 50%;
+ left: 50%;
+ -ms-transform: translate(-50%,-50%);
+ -webkit-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+ margin:0;
+ padding:0;
+  z-index: -10;
+}
+
+.frame img:hover +a{
+  font-size: 3.5em;
+  z-index: 10;
+  transition: 300ms;
+  pointer-events: none;
+}
+
+.frame img:hover{
+  filter: brightness(0.6);
+  transition: 300ms;
+}
+
+#box{
+
+
+}
+
+
+
+img.tmenu{
+  width: 450px;
+  height:270px;
+  border:10px #fafafa solid;
 }
 
 

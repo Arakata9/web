@@ -9,14 +9,14 @@
 <script src="js/jquery-3.4.0.min.js"></script>
 <script src="js/pem.js"></script>
 
-<div class="header">
+<div id="header" class="header">
   <div class="bar-left">
     <a class="transition" href="index.html"><img class="logo" src="images/pemlogo.svg" alt="logo"/>
   </div>
   <div class="bar-right">
-    <a class="transition" href="about.html">ABOUT</a>
-    <a class="transition" href="Works.html">WORKS</a>
-    <a class="transition" href="contact.html">CONTACT</a>
+    <a href="about.html">ABOUT</a>
+    <a href="Works.html">WORKS</a>
+    <a href="contact.html">CONTACT</a>
   </div>
 </div>
 
@@ -24,15 +24,21 @@
 <body>
 
 <div class="UI">
-  <a href="about.html"><img id="img1" class="about" src="images/about.png" alt="about" onmouseover="mouseOn1();" onmouseout="mouseOff1();"/></a>
-    <a href="works.html"><img id="img2" class="works" src="images/works.png" alt="works" onmouseover="mouseOn2();" onmouseout="mouseOff2();"/></a>
-    <a href="contact.html"><img id="img3" class="contact" src="images/contact.png" alt="contact" onmouseover="mouseOn3();" onmouseout="mouseOff3();"/></a>
+  <a href="about.html"><img id="img1" class="about" src="images/about.png" alt="about" ></a>
+    <a href="works.html"><img id="img2" class="works" src="images/works.png" alt="works"></a>
+    <a href="contact.html"><img id="img3" class="contact" src="images/contact.png" alt="contact"></a>
     <div class="UIsc"></div>
+    <div class="UIsc2"></div>
+    <div class="UIsc3"></div>
 </div>
 <div class="righte">
   <p class="name">Kengo Ishida.</p>
   <div class="sc"></div>
-  <div class="sc2"></div>
+  <div class="sc2">
+    <div class="frame">
+    <img id="box" class="tmenu" src="images/tmenu.png" alt="traning-menu" >
+    <a>Create Training-Menu</a>
+  </div>
 </div>
 </body>
 </html>
