@@ -11,6 +11,10 @@ function mouseOff(){
   obj.src = "images/pemf.png";
 }
 
+
+
+
+
 /*
 //マウスオーバー時の処理about
 function mouseOn1(){
